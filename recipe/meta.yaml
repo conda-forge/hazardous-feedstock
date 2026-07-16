@@ -1,5 +1,5 @@
 {% set name = "hazardous" %}
-{% set version = "0.1.0" %}
+{% set version = "0.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/hazardous-{{ version }}.tar.gz
-  sha256: f39bb02b4f1d261197f7c279ae369ed6480b1c1ee4632a686b0b9057b8616fa7
+  sha256: 4cb8fbe3e5a328ad012bd936b2345b53027ce4fb69162391d4a7af2473332199
 
 build:
   noarch: python
